@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div>
+        <h2 style="text-align:center">Survey Form</h2>
+            <div class="container-form">
+                    <p style="text-align:center";font-size="20px">Let us know how we can improve freeCodeCamp</p>
+        
+                        <form>
+                            <div class="row">
+                                <div class="col-1">
+                                    <label for="name"><span>*</span>Name</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="text" name="name" placeholder="Enter your name"/>
+                                </div>
+                            </div>
+                            <br>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label for="name"><span>*</span>Email</label>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" name="email" placeholder="Enter your Email"/>
+                                    </div>
+                                </div>
+                            <br>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label for="Age"><span>*</span>Age</label>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="number" name="Age" placeholder="Age"/>
+                                    </div>
+                                </div>
+                    
+                            <br>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label for="Select"><span>*</span>Which option best describes your current role?</label>
+                                    </div>
+                                    <div class="col-2">
+                                        <select id="student" name="Students">
+                                                <option value="Staff">Staff</option>
+                                                <option value="Teacher">Teacher</option>
+                                                <option value="Student">Student</option>
+                                                <option value="Manager">Manager</option>
+                                                <option value="officer">officer</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            <br>
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label for="Refer"><span>*</span>How likely is that you would recommend<br>freeCodeCamp to a friend?</label>
+                                    </div>
+                                    <div class="col-2">     
+                                        <ul>    
+                                            <ol><input type="radio" name="radiogroup">Definitely</input></ol>
+		                                    <ol><input type="radio" name="radiogroup">May be</input></ol>
+		                                    <ol><input type="radio" name="radiogroup">Not sure</input></ol>
+                                        </ul> 
+                                    </div>
+                                </div>
+                    
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label for="Selec an Option">What do you like most in FCC:</label>
+                                    </div>
+                                    <div class="col-2">
+                                            <select id="role" name="Correct role">
+                                                <option value="Select an Option">Select an Option</option>
+                                                <option value="To solve problem">UI</option>
+                                                <option value="Select the problem to solve">Services</option>
+                                            </select>
+                                    </div>
+                                </div>
+                
+                                <div class="row">
+                                    <div class="col-1">
+                                        <label for="like">Things that should be improved in the future <br>(check all that apply)</label>
+                                    </div>
+                                    <div class="col-2">
+                                        <ul>
+                                            <ol><input type="checkbox" name="front_end_project">Front-end project</input></ol>	
+                                            <ol><input type="checkbox" name="Back_end_project">Back-end project</input></ol>	
+                                            <ol><input type="checkbox" name="Data_visulization">Full-Stack</input></ol>			
+                                        </ul>
+                                    </div>
+                                </div>
+                
+                                    <div class="row">
+                                        <div align="center">
+                                            <input type="submit" name="Submit" value="Submit">
+                                            <input type="submit" name="cencal" value="cancel">
+                                        </div>
+                                    </div>
+                        </form>
+                        
+                        
+            </div>   
+    </div>
+        
+</body>
+</html>
